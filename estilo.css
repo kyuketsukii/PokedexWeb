@@ -1,0 +1,788 @@
+@font-face {
+    font-family: 'LuloCleanW01-OneBold';
+    src: url('Recursos/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf');
+}
+@font-face{
+    font-family: 'LuloCleanOne';
+    src: url('Recursos/FontsFree-Net-Lulo-Clean-W01-One.ttf');
+}
+
+
+
+
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'LuloCleanOne';
+    color: #fff;
+}
+
+
+main {
+    width: 100% auto;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+body{
+color: #fff;
+background-image: url(./Img/Fondo\ web.png);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center center;
+width: 100% auto;
+height: auto;
+min-height: 100vh;
+background-attachment: fixed;
+}
+
+
+
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+  
+    
+}
+
+.container__menu{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 160px;
+
+}
+
+.menu{
+display: flex;
+align-items: center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 3dvi;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#selected{
+    background: #ff77c07d;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.menu nav img{
+    display: none;
+}
+
+.menu #btn_menu{
+    display: none;
+}
+
+
+#menu {
+    background-color: transparent;
+    transition: background-color 0.3s; 
+   
+  }
+  
+
+  #menu.scrolling {
+    background-color: #000000; 
+  }
+
+/*COVER*/
+/*
+.container__cover{
+
+}*/
+
+
+.landing{
+margin-top: 5%;
+}
+
+
+
+.Seleciones{
+flex-wrap: wrap;
+display: flex;
+align-items: center;
+
+
+}
+
+/*Seccion1*/
+.seccion1{
+width: 20rem;
+min-height: auto;
+flex-wrap: wrap;
+margin: 4% auto;
+padding: 3% auto;
+}
+
+
+.descripcion p{
+    font-size: 13px;
+    text-align: left;
+}
+.descripcion h1{
+    color: #F66FA0;
+    font-family:'LuloCleanW01-OneBold';
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+
+
+.clasificaciones{
+   padding-top: 4%;
+}
+
+
+.Tipo h2{
+    font-size: 13px;
+}
+
+
+.Tipo{
+    color: #FFF;
+    font-size: 13px;
+}
+
+.Tipo li{
+font-family:'LuloCleanOne';
+list-style:none;
+width: 135px;
+height: 44px;
+display: inline-flex;
+margin: 1%;
+}
+
+
+#Hada{
+    margin-left: 1%;
+    margin-top: 2%;
+    background: #dfa9f1;
+    border-radius: 41px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+  
+    }  
+
+
+ #Acero{
+        margin-top: 2%;
+        margin-left: 1%;
+        background: #b0a0c4;
+        border-radius: 41px;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 30px;
+        }  
+
+
+.Debilidad{ 
+    padding-top: 4%;
+
+}
+        
+        .Debilidad li{
+        font-family:'LuloCleanOne';
+        list-style:none;
+        border-radius: 41px;
+        width: 135px;
+        height: 44px;
+        display: inline-flex;
+        font-size: 13px;
+        }
+        
+        
+        .Debilidad h2{
+            
+            font-size: 12px;
+          
+        }
+        
+        #fuego{
+           margin-left: 1%;
+           margin-top: 2%;
+           background: #FFB256;
+           border-radius: 41px;
+           align-items: center;
+           justify-content: center;
+           width: 100px;
+           height: 30px; }
+           
+        #tierra{
+              margin-left: 1%;
+              margin-top: 2%;
+              background: #828282;
+              border-radius: 41px;
+              align-items: center;
+              justify-content: center;
+              width: 100px;
+              height: 30px;
+           }  
+   
+
+
+/*Seccion2*/
+.seccion2{
+    width: 42% auto;
+    min-height: auto;
+    margin: 4% auto;
+    padding: 3% auto;
+}
+
+
+
+#modelo3d{
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+/*Seccion3*/
+
+.seccion3{
+width: 20rem;
+height: 30rem;
+min-height: auto;
+margin: 4% auto;
+padding: 3% auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+
+}
+
+.cuadrodecaracteristicas{
+    display: flex;
+    position:absolute;
+}
+ 
+.n-0959 {
+position: relative;
+top: -170px;
+justify-content: center;
+align-items: center;
+padding-left:30px ;
+ }
+    
+    
+    .n-0959 p{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font:  'LuloCleanOne';
+    }
+
+.Caracteristicas{
+    align-items: center;
+    font-size: 12px;
+    }
+ 
+ .Caracteristicas ul{
+     list-style:none;
+ }
+ 
+ .Caracteristicas li{
+    padding-top: 30px;
+ }
+ 
+ .Respuestas{
+    font-size: 12px;
+    display: flex;
+ }
+ 
+ .Respuestas ul{
+     list-style:none;
+     margin-top: 3px;
+     padding-left: 9%;
+ }
+ 
+ 
+ .Respuestas li{
+    padding-top: 28px;
+ }
+ 
+
+ .Respuestas li img{
+     width:20px;
+     height:20px;
+ }
+
+/*Seccion4*/
+.seccion4{
+ justify-content: center;
+display: flex;
+align-items: flex-end;
+ place-items: center;
+ flex-wrap: wrap;
+ 
+   
+}
+
+
+.evolucionescontenedor{
+    padding: 1%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.evoluciones{
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    display: grid;
+    float:none;
+    flex-wrap: wrap;
+    
+  
+    
+}
+
+
+.cuadros{
+  
+align-items: center;
+justify-content: center;
+display:inline-flex;
+padding: 0%;
+flex-wrap: wrap;
+
+}
+
+
+#cuadro1 img{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#cuadro2 img{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+#cuadro3 img{
+   padding: 10px;
+   flex-wrap: wrap;
+}
+
+#cuadro1 :hover{
+
+transform: scale(1.4);
+
+}
+
+#cuadro2 :hover{
+
+transform: scale(1.4);
+
+}
+
+#cuadro3 :hover{
+
+transform: scale(1.4);
+
+}
+
+.informacion{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+}
+
+
+.promo {
+padding-top:15%; 
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center; 
+width:60%; 
+margin:auto;
+position:relative;
+z-index: 1;
+}
+
+.promo h1 {
+    font-size: 27pt; 
+    color: #f3f3f3;
+    text-align:center;
+    font-family:'LuloCleanW01-OneBold';
+
+    }
+
+
+    .promo p {
+    margin-top: 20px;
+    font-size: 15pt;
+    text-align:center;
+    color:#f3f3f3;
+    }
+
+#hero { 
+min-height: 100vh;
+position:relative;
+}
+
+video {
+position: absolute;
+top: 0;
+left:0;
+width:100%;
+height:100%;
+object-fit: cover;
+opacity: 0.7;
+
+}
+
+
+
+
+button:hover{ transform:translate(0, -5px); }
+button {
+    display: inline-block;
+    border:none;
+    height:50px;
+    border-radius: 30px;
+    padding: 10px 0;
+    width: 200px;
+    background-color:#ff006f;
+    font-size: 1.8rem;
+    color:#3f3f3f;
+    font-weight: 800;
+    transition: 150ms;
+    margin-top: 40px;
+    }
+
+
+    button:focus {
+    outline:none; }
+
+
+
+
+.footerpos{
+   position: relative;
+   top: 100vh;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%; 
+    min-height: auto;
+
+    }
+
+
+    footer p{
+        text-align: center;
+        font-size:10px ;
+        
+        
+
+    }
+
+
+
+
+
+/*sobremi*/
+
+#container-slider
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    
+   
+}
+#slider {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    
+}
+#slider li {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    z-index: -1;
+    opacity: 0;
+}
+#container-slider .arrowPrev, #container-slider .arrowNext{
+    font-size: 30pt;
+    color: rgba(204, 204, 204, 0.65);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    z-index: 2; 
+}
+#container-slider .arrowNext {
+    left: initial;
+    right: 50px !important;
+}
+.content_slider{
+    padding: 15px 30px;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+}
+.content_slider div{
+    text-align: center;
+}
+.content_slider h2{
+    font-family:'LuloCleanW01-OneBold';
+    font-size: 30pt;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.content_slider p {
+    font-size: 15pt;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+#slider li .content_slider{
+    background: rgba(0, 0, 0, 0.50);
+    padding: 10px 125px;
+}
+.content_slider{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnSlider{
+    color: #FFF;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    padding: 10px 50px;
+   
+    background: #ff77c07d;
+    border-radius: 31px;
+    text-decoration: none;
+    transition: .5s all;
+}
+.btnSlider:hover{
+    background: #111;
+    border: 1px solid #111;
+}
+.listslider {
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    bottom: 5%;
+    list-style: none;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+.listslider li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.listslider li a {
+    background: #CCC;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.item-select-slid {
+    background: #FFF;
+    width: 100%;
+    max-height: fit-content;
+}
+
+
+.seccion5{
+background-color: #FFF;
+width: 100%;
+min-height: auto;
+
+
+}
+.contactame{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100% auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.contactame h1{
+color: #ff006f;
+font: 28px 'LuloCleanW01-OneBold';
+margin: 4%;
+
+align-content: center;
+justify-items: center;
+text-align: center;
+}
+
+
+.formulario{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+padding: 5%;
+
+}
+input[type="email"],
+input[type="text"],textarea {
+    background-color: #dedede; 
+    width: 100%; 
+    min-height: auto;
+    border-style: none;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px;
+    margin: 2%;
+    color: #ff006f;
+    
+        }
+    
+    
+        label[for="email"] {
+            font: 15px 'LuloCleanW01-OneBold';
+           color: #ff006f;
+        
+        }
+
+        label[for="comentarios"] {
+            font: 15px 'LuloCleanW01-OneBold';
+            padding-top: 3%;
+            color: #ff006f;
+        }
+
+
+
+        
+        
+        input[type="submit"],textarea{
+            
+            border-style: none;
+            color: #ff006f;
+            flex: content;
+            border-radius: 16px 16px 16px 16px;
+            padding: 8px;
+            font: 15px 'LuloCleanW01-OneBold';
+        }
+
+        
+     
+        input[type="submit"]{
+
+        background-color: #ffffff;
+        }
+        input[type="submit"]:hover {
+            color: #ffffff;
+            background-color:#ff006f;
+            }
+         
+            #preloader {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.9);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+              }
+              
+            
+              .preloader-circle {
+                border: 8px solid #3498db;
+                border-radius: 50%;
+                border-top: 8px solid #fff;
+                width: 50px;
+                height: 50px;
+                animation: spin 1s linear infinite;
+              }
+              
+         
+              .preloader-image {
+                width: 50px; /* ajusta el tamaño según sea necesario */
+                height: 50px;
+                animation: spin 1s linear infinite;
+              }
+              
+              @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+              }
