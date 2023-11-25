@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <script defer src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+</head>
+
+<body>
+
+
+    <div id="preloader">
+     
+        <img src="Img/Fondobola.png" alt="Pokebola" class="preloader-image">
+      </div>   
+
+
+
+    <header id="menu">
+
+        <div class="container__menu">
+            <div class="logo">
+                <a href="index.html"> <img src="Img/Pokemon logo.png" alt=""> </a>
+            </div>
+            <div class="menu">
+                <i class="fas fa-bars" id="btn_menu"></i>
+                <div id="back_menu"></div>
+                <nav id="nav">
+                    <ul>
+                       
+                        <li><a href="index.html" id="selected">Inicio</a></li>
+                        <li><a href="sobremi.html">Sobre mi</a></li>
+                        <li><a href="sobremi.html#contactame" >Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<main>
+    <div class="container__cover"> 
+        
+        <div class="landing"> <img src="" alt=""> 
+
+            <div class="Seleciones"> 
+                <div class="seccion1"> 
+
+                    <div class="descripcion">
+
+                        <h1>Tinkaton</h1>
+                        <p>Posee una notable inteligencia y una exacerbada personalidad. 
+                        Si ve Corviknight volando, golpea y lanza rocas con su martillo 
+                        para derribarlos.
+                        <br>
+                        <br>
+                        Blande sin esfuerzo su pesado martillo de más de 100 kg. 
+                        Cuando quiere algo, lo roba y se lo lleva de vuelta a su guarida.</p>
+                    
+
+                        <div class="clasificaciones">
+
+                            <div class="Tipo">
+                            <h2>Tipo</h2>
+                            <ul>
+                            <li id="Hada">Hada</li>
+                            <li id="Acero">Acero</li>
+                            </ul> </div>
+
+                            <div class="Debilidad">
+                            <h2>Debilidad</h2>
+                            <ul>
+                            <li id="fuego">Fuego</li>
+                            <li id="tierra">Tierra</li>
+                            </ul> </div> 
+                        </div> 
+
+                    </div> 
+                
+                </div>
+                
+                <div class="seccion2">
+                    <div id="modelo3d">
+                    <model-viewer src="./Recursos/pokemon_scarlet_and_violet_tinkaton.glb" 
+                        camera-controls poster="poster.webp" 
+                        hadow-intensity="1"
+                        intensity="0.32" 
+                        shadow-softness="0.97" 
+                        auto-rotate 
+                        camera-orbit="20deg 90deg 5m"
+                        style="--poster-color: transparent;width: 400px; height: 400px;"
+                        min-camera-orbit="auto 43deg 5.673m" 
+                        min-field-of-view="26.12deg" 
+                        max-camera-orbit="auto 82deg auto">  </model-viewer>
+                    </div>
+                </div>
+
+                <div class="seccion3"> 
+
+                    <div class="n-0959"> <p>Nº 0959</p> </div>
+
+                    <div class="cuadrodecaracteristicas"> 
+
+                    <div class="Caracteristicas">
+                        <ul>
+                            <li>Peso</li>
+                            <li>Altura</li>
+                            <li>Sexo</li>
+                            <li>categoria</li>
+                            <li>Habilidad</li>
+                        </ul>
+                    </div>
+
+                    <div class="Respuestas">
+                        <ul>
+                            <li>112,8 kg</li>
+                            <li>0,7 m</li>
+                            <li> <img src="Img/Vectores/sexo.svg" alt=""></li>
+                            <li>Martillo</li>
+                            <li>Ritmo Propio
+                            Rompemoldes</li>
+                        </ul>
+                    </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        
+                <div class="seccion4"> 
+                    
+                    <div class="evolucionescontenedor"> 
+
+                        <div class="evoluciones">
+
+                            <p>Evoluciones</p>
+                            <div class="cuadros">
+                            <div id="cuadro1"> <img src="Img/icon tinkaton 2.png" alt=""> </div>
+                            <div id="cuadro2"> <img src="Img/icon tinkaton 1.png" alt=""> </div>
+                            <div id="cuadro3"> <img src="Img/icon tinkaton 3.png" alt=""> </div>
+                        </div>
+
+                    </div>
+
+                    
+                    
+
+                    
+                </div>
+
+
+        </div>
+
+    
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</main>
+
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+<div class="informacion">
+    
+    <div class="promo">
+        <h1>¿Preparado para la aventura?</h1>
+        <p>Descubre todo sobre Tinkaton en Breathe Out | Pokémon: Paldean Winds Episode 1</p>
+       <a href="https://youtu.be/uyMxQl-PeJE?si=QZrI4hlqhkukDSkr" target="_blank"> <button type="button">MIRAR AHORA</button></a>
+        </div>  
+       
+        <video  id="miVideo" loop autoplay> <source src="./Img/Video/Breathe Out  Pokémon Paldean Winds Episode.mp4"> </video>  
+   
+
+
+
+
+</div>
+
+
+
+<div class="footerpos">
+    
+
+
+<footer> 
+    <p> Creado por Valentina Rodelo.</p> 
+
+</footer>
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
